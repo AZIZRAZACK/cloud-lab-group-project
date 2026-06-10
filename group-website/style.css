@@ -147,3 +147,23 @@ footer {
     padding: 20px;
     margin-top: 40px;
 }
+/* Home Page Image Background */
+main.home-bg {
+    max-width: 100%; 
+    margin: 0;
+    padding: 80px 20px;
+    background: url('laptop.jpg') no-repeat center center/cover; /* Fits perfectly on any screen */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+/* Makes the text card readable over the background image */
+main.home-bg .hero {
+    max-width: 800px;
+    background: rgba(255, 255, 255, 0.9); /* Opaque white background so text is readable */
+    padding: 50px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
